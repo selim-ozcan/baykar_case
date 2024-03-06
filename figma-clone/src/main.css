@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .clip-style {
+ 
+       clip-path: polygon(0 0, 100% 0, 100% 30%, 0% 100%);
+       
+
+ 
+    }
+ 
+ }
