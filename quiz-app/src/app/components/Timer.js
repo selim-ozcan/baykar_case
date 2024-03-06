@@ -24,7 +24,7 @@ export default function Timer({currentQuestion, setCanChooseAnswer, onTimeOut}) 
 				})
 			}
 
-			if (remainingTime > 0 && remainingTime < 29) {
+			if (remainingTime > 0 && remainingTime < 21) {
 				setCanChooseAnswer(true)
 			}
 		}, [remainingTime])
